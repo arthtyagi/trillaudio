@@ -10,7 +10,7 @@ TRILL AUDIO is an app to merge, equalize, and compress (or simply modify sample 
 - [ ] Add an equalizer. (v2)
 - [ ] MIDI file to .wav files (v2)
 
---
+----
 
 - [ ] Equalizer as a Plugin.
 - [ ] Take hot(live) MIDI input.
@@ -20,7 +20,9 @@ TRILL AUDIO is an app to merge, equalize, and compress (or simply modify sample 
 ### Availability Plans
 
 - [ ] Stand-alone native app in Python (v1).
---
+
+----
+
 - [ ] Separate modulation app in C++/Swift.
 - [ ] Plugin (C++) (equalizer and modulation features, if implemented)
 - [ ] Web-based app (Rust)
