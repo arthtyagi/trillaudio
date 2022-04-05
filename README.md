@@ -7,7 +7,7 @@ TRILL AUDIO is an app to merge, equalize, and compress (or simply modify sample 
 - [ ] Compress audio files. (v1)
 - [ ] Change sample rate (step-up) of audio files. (v1) 
 - [ ] Add spectrum analyzer 
-- [ ] Add an equalizer. (v2)
+- [ ] Add a functional equalizer. (v2)
 - [ ] MIDI file to .wav files (v2)
 
 ----
