@@ -8,6 +8,8 @@ from PyQt6.QtWidgets import (
     QMessageBox,
 )
 
+import pydub
+
 from PyQt6 import QtCore
 
 import sys
@@ -26,6 +28,22 @@ text.move(150, 10)
 text.setFixedSize(200, 50)
 text.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
 text.show()
+# take user input
+input_path = QLineEdit()
+# take user input for output path
+output_path = QLineEdit()
+input_path.setPlaceholderText("Enter input path")
+output_path.setPlaceholderText("Enter output path")
+input_path.setFixedWidth(300)
+output_path.setFixedWidth(300)
+input_path.setFixedHeight(30)
+output_path.setFixedHeight(30)
+input_path.setStyleSheet("background-color: white;")
+output_path.setStyleSheet("background-color: white;")
+input_path.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+output_path.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+input_path.show()
+output_path.show()
 window.show()
 
 app.exec()
